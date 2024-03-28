@@ -2,6 +2,6 @@ html {
     background-color: aquamarine;
 }
 
-.button {
+.button:focus {
     color: crimson;
 }
