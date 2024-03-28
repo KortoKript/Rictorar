@@ -1,5 +1,5 @@
-const text = document.querySelector('#text');
-const name = document.querySelector('#name');
+const text = document.getElementById('#text');
+const name = document.getElementById('name');
 
 function Send(){
     var xhr = new XMLHttpRequest();
