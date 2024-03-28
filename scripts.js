@@ -1,4 +1,5 @@
 const text = document.querySelector('#text');
+const name = document.querySelector('#name');
 
 function Send(){
     var xhr = new XMLHttpRequest();
