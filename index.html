@@ -4,7 +4,7 @@
   <header>
     <title>Мессенджер</title>
     <p>Добро пожаловать во Всеобщий Чат Рафнара!</p>
-    <p id="name"></p>
+    <p id="name">ff</p>
   </header>
   <main>
   </main>
@@ -18,13 +18,7 @@
   const name = document.getElementById('name');
   alert();
   function Send(){
-    var xhr = new XMLHttpRequest();
     xhr.open('GET', 'https://catfact.ninja/fact', true)
-    xhr.onreadystatechange = function () {
-      if (xhr.readyState === 4 && xhr.status === 200) {
-          alert(xhr.responseText);
-      }
-    };
     xhr.send();
   } 
 </script>
