@@ -1,6 +1,6 @@
 const text = document.getElementById('text');
 const name = document.getElementById('name');
-
+alert();
 function Send(){
     var xhr = new XMLHttpRequest();
     xhr.open('GET', 'https://catfact.ninja/fact', true)
