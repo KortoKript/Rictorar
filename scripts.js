@@ -1,4 +1,4 @@
-const text = document.getElementById('#text');
+const text = document.getElementById('text');
 const name = document.getElementById('name');
 
 function Send(){
